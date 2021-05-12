@@ -1,15 +1,12 @@
 /*All new stylesheet rules go here*/
 /*Global rules*/
-.wrapper {
-    /**/
-}
 
 .row.row-cols-2.row-cols-md-3.g-4{
     width: 20%;
 }
 
 body{
-    background-color; white;
+    background-color: white;
 }
 
 .card-title{
