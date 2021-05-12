@@ -3,3 +3,8 @@
 .wrapper {
     /**/
 }
+
+.row.row-cols-2.row-cols-md-3.g-4{
+    width: 20%;
+}
+
