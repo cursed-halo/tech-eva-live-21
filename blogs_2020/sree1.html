@@ -1,142 +1,298 @@
-<!doctype html>
-<html ⚡>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
-    <meta name="description" content="This is the AMP Boilerplate.">
-    <link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
-    <script async src="https://cdn.ampproject.org/v0.js"></script>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="images/favicon.ico">
-    <script async custom-element="amp-mega-menu" src="https://cdn.ampproject.org/v0/amp-mega-menu-0.1.js"></script>
-    <!-- Import other AMP Extensions here -->
-    <style amp-custom>
-        .container {
-    padding: 2px 2px 2px;
-    max-width: 100%;
-}
-.container__image{
-    display: inline-block;
-        vertical-align: top;
-        width: 50%;
-        margin: 20px 30px 0 0;
-}
-.container__text{
-    display: inline-block;
-        width: 100%;
-        font-size: 20px;
-        margin:1rem 1rem 1rem 1rem;
-        padding:2rem 2rem 2rem 2rem;
-        @media (max-width: 620px) {
-            width: 100%;
-            font-size:20px;
-}
-
-
-
-        #p{
-            margin:30px 30px 30px 30px;
-        }
-    /* Add your styles here */
-      #h{
-        font-family: helvetica, arial, sans-serif;
-        margin:0.6em 0.6em 0.6em 0.6em;
-      }
-      @import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
-body {
-  font-family: 'Oswald', sans-serif;
- 
-  display: grid;
-  font-size:20px;
-  flex:1;
-}
-
-    </style>
-    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
-
-    <link rel="canonical" href=".">
-    <title>Techeva- NSEC ECE Tech-Blogs!</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tech-Eva | Blog</title>
+    <!--CSS Rules and Links Go Here-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles/styles_new.css" />
   </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background: linear-gradient(45deg, rgba(21,82,153,1) 0%,rgba(144,192,229,.4) 100%); color:#ffffff ;">
-        
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home <i class="fa fa-home" aria-hidden="true"></i>
-              <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About Us <i class="fa fa-file-text-o" aria-hidden="true"></i></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="blogs.html">Blogs <i class="fa fa-book" aria-hidden="true"></i></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="announcements .html">Events<i class="fa fa-star-o" aria-hidden="true"></i></a>
-          </li>
-          
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          Techeva🔭
-        </form>
-      </div>
-    </nav>
-  
-    <br>
-    <center><h1 id="h">Techeva- Site for Tech-Blogs ! 🔭
-      </h1></center>
-      <hr>
-      <br>
-    <center><h1>How IoT came into existence</h1></center>
-    <br>
-    <center><h3>-Sreeparna Biswas</h3></center>
-    <center><h3>ECE</h3></center>
-    <br>
-    <div class="container">
-        <center><img class="container__image" src="images/sree.jpg"></center>
-        <br>
-        <div class="container__text">
-            <p>Now a days, more or less we all are familiar of Internet of Things (IoT). Tech-fest, tech-events, are incomplete without the involvement of IoT. It is one of the popular concepts that has been widely accepted and applied by the technical world for last 10 years.</p>
-        <p>The actual idea of connected devices emerged, at least since the 70s. At that time, the idea was often called “embedded internet” or “pervasive computing”. The Internet of Things term is coined by Kevin Ashton, the executive director of the Auto-ID Center in the year of 1999. He stated that, "I could be wrong, but I'm fairly sure the phrase "Internet of Things" started life as the title of a presentation I made at Procter & Gamble in 1999. Linking the new idea of RFID in P&G's supply chain to the then-red-hot topic of the Internet was more than just a good way to get executive attention. It summed up an important insight which is still often misunderstood."</p>
-    </div>
-        <center><img class="container__image" src="data:image/jpeg;base64,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"></center>
-        <div class="container__text">
-    <p>In the year of 1990 John Romkey created a toaster that could be turned on and off over the Internet which was considered to be the first IoT device. The toaster was connected to a computer with TCP/IP networking. In between 2003 and 2004 implementation of projects like Cooltown, Internet0, and the Disappearing Computer started taking place, and the Internet of Things term starts to appear in book titles for the first time. The growth of smartphones, tablet PCs, etc the number of devices connected to the Internet increased to around 12 billion in 2010. Within the next year many networking and technology companies produced large educational and marketing initiatives on the topic, hardware platforms matured and made the IoT accessible to DIY'ers taking interest in the topic.</p> 
 
-      </div>
-      <center><img class="container__image" src="images/sree1.png" width="25%" height="25%"></center>
-        <div class="container__text">
-<p>In this way, with time Internet of Things continues to grow and it's adoption across end-user industries, such as manufacturing, automotive, and healthcare, is driving the market’s growth positively. The global IoT market is expected to reach a value around twelve hundred billion by coming 4 to 5 years.</p>          
+  <body class="d-flex flex-column h-100 bg-dark text-white">
+    <div class="wrapper">
+      <header class="container-lg" style="font-size: 40px;">
+        <h1 class="text-center fw-bold display-1" >
+          Tech<small class="text-muted">-Eva</small>
+        </h1>
+      </header>
+      <!--This bit is for the content of the navbar-->
+      <nav
+        class="navbar navbar-expand-lg navbar-dark bg-dark rounded"
+        aria-label="Twelfth navbar example"
+      >
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarsExample10"
+            aria-controls="navbarsExample10"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            class="collapse navbar-collapse justify-content-md-center"
+            id="navbarsExample10"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="alt_index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="alt_about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="alt_about.html">Events</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle current active"
+                  href="#"
+                  id="dropdown10"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Blogs</a
+                >
+                <ul class="dropdown-menu bg-dark" aria-labelledby="dropdown10">
+                  <li>
+                    <a class="dropdown-item text-light" href="blogs20.html"
+                      >Blog'O'Pedia V1.0 [2020]</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-light" href="blogs21.html"
+                      >Blog'O'Pedia V2.0 [2021]</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!--Hero Section-->
+    <hr />
+    <br />
+    <div
+      class="
+        p-4 p-md-5
+        mb-4
+        text-white
+        rounded
+        bg-dark
+        container
+        blog-page-hero
+        img-fluid
+        rounded
+        border border-light
+        shadow-sm
+      "
+      style="background-image: url(https://images.unsplash.com/photo-1505682634904-d7c8d95cdc50?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);"
+    >
+      <div class="col-md-6 px-0">
+        <h1 class="display-2">Title of your amazing blog!</h1>
+        <p class="lead my-3 blockquote fs-4">
+          A short lead into your blog goes here. Perhaps a short and sweet
+          description of the contents? Perhaps a niche quote?
+        </p>
+        <br />
+        <p class="lead mb-0 blockquote-footer fw-bolder fs-5">Your Name</p>
       </div>
     </div>
-        <br>
-        <div id="disqus_thread"></div>
-        <script>
-        
-        
-        var disqus_config = function () {
-        this.page.url = "https://tech-eva.live/sree1.html";  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = "sree1"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-        };
-        (function() { // DON'T EDIT BELOW THIS LINE
-        var d = document, s = d.createElement('script');
-        s.src = 'https://techeva-nsec-ece-tech-blogs.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-        })();
-        </script>
-        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-                                    <br>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!--Middle Section-->
+    <main class="container">
+      <p class="lead fs-5">
+        The Theory of Relativity usually is composed of two interrelated theory by Albert Einstein- Special Relativity
+          and General Relativity. This theory, in 1905, led to the beginning of a new age for theoretical physics. This
+          theory showed a new way of visualising and understanding different phenomenon in the universe. The Special
+          Theory of Relativity was published in “On the electrodynamics of moving bodies” by Albert Einstein in 1905,
+          which is also called ‘the miracle year’ as Einstein published five consecutive papers in that year.
+      </p>
+      <p class="lead fs-5">
+        <b>Special Theory of Relativity</b><br><br>
+        Einstein devised Special Relativity in 1905. In Special Relativity, Einstein put forward some ideas which was
+        very important for the development of physics. He showed that the speed of light within a vacuum is the same
+        no matter at which speed an observer is travelling. As a result, he found that space and time were interwoven
+        into a single continuum known as Space-Time.
+      </p>
+      <p class="lead fs-5">
+        Special Relativity is a theory of the structure of Space-time. It proved that time and space are not absolute.
+          It is based on two postulates:
+      </p>
+      <p class="lead fs-5">
+         
+          1. The laws of physics are the same for all the observers in any inertial frame of reference relative to on
+            another, which is the principle of relativity.
+         
+      </p>
+      <p class="lead fs-5">   
+          2. The speed of light in a vacuum is the same for all observers, regardless of their relative motion or of
+            the motion of the light source.      
+      </p>
+      <p class="lead fs-5">
+        Relativistic mechanics copes with experiment better than classical mechanics. The 2nd postulate is the direct
+        result of the Michelson-Morley experiment. In Michelson-Morley experiment, the non-existence of vacuum or the
+        existence of the luminiferous aether(a medium permeating space which was supposed to be the carrier of light
+        waves) was being proved. But the results found were negative. This led to the birth of postulate 2. In fact
+        Einstein recognised acceleration instead of momentum unknowingly. Einstein mentioned that mass of a body
+        increases with the increase in the motion or velocity of the body. Classical mechanics dealt with the
+        rectilinear principles of motion. But Einstein imagined the space-time is curved and all motions are curved
+        and attempted to establish the curvilinear principle. This theory has many consequences like – relativity of
+        simultaneity, time dilation, length contraction, mass energy equivalence, etc. Time dilation and length
+        contraction are two very important consequences of Special Relativity. Time dilation showed that time dilates
+        and contracts either due the relative velocity between two bodies considered or due to fluctuation in
+        gravitational potential difference in different space-time. On the other hand length contraction showed that a
+        moving object’s length is less than its original length(measured in its own rest frame) in the direction of
+        motion, it is also known as Lorentz contraction. This phenomenon is clearly noticeable when the speed of the
+        object is near to the speed of light. In the principle of equivalence Einstein explained the gravitational and
+        inertial masses are same. But this concept needed more elaboration as it could only explain mass with
+        gravitation. Beyond the gravitational field body is unable to express mass. This led to the birth of the
+        General Theory of Relativity. To understand Special Relativity one has to transfer from Galilean
+        transformations of classical mechanics by the Lorentz transformations of relativistic mechanics.
+      </p><br>
+      <p class="lead fs-5">
+        <b>General Theory of Relativity
+        </b>
+      </p>
+
+      <p class="lead fs-5">
+        Einstein spent 10 years trying to include the idea of acceleration in his theory and published the General
+        Theory of Relativity in 1915. The development of the general relativity began with the Principle of
+        Equivalence, in which the states of accelerated motion and being at rest in a gravitational field are
+        physically identical. In his equations, he devised the fact that massive objects cause a distortion in
+        space-time, which is nothing but gravity. This is same as setting a large body in the centre of a trampoline,
+        causing it to dimple. The body would press down into the fabric, causing it to dimple. A marble rolled around
+        the edge would spiral inward toward the body, pulled in much the same way that the gravity of a planet pulls
+        at rocks in space. At first this theory would seem meaningless, but the greatest beauty of our galaxy that is
+        the back holes confirmed the theory. Some of the consequences of the general relativity are –
+
+      </p>
+      <p class="lead fs-5">
+        1. <u><b>Gravitational lensing: </u></b> Gravitational field bend light. Light around a massive object such as a
+        black hole is bent causing it to act as a lens for things that lie behind it. This method is usually used by
+        astronomers to study stars and galaxies behind massive objects. Also light approaching the sun is curved due
+        to the distortion in space-time.
+
+      </p>
+      <p class="lead fs-5">
+        2. <u><b>Gravitational Redshift: </u></b> The electromagnetic radiation of an object is stretched out slightly inside
+        a gravitational field. This is a simple consequence of the principle of equivalence.
+      </p>
+      <p class="lead fs-5">
+        3. <u><b>Gravitational Waves: </u></b> These are ripples in space-time caused by some most violent and energetic
+        processes in the universe. Einstein’s equations showed that massive accelerating objects such as black holes,
+        neutron stars orbiting each other would disrupt space-time in such a way that waves of undulating spacetime
+        would propagate in all directions away from the source. These cosmic ripples travel at the speed of light.
+        This has been proven from the collision of two black holes and captured by LIGO.
+
+
+      </p>
+      <p class="lead fs-5">
+        4. <u><b>Gravitational Time Dilation: </u></b> Clocks run slower in deeper gravitational potential wells.
+      </p>
+      <p class="lead fs-5">
+        5. <u><b>Expanding Universe: </u></b> The universe is expanding and the far parts are moving away from us faster than
+        the speed of light.
+
+      </p><br>
+
+
+      </p>
+    </main>
+    <hr />
+       <!--Footer Section-->
+    <!-- Remove the container if you want to extend the Footer to full width. -->
+    <div class="container my-5 bg-dark text-white">
+      <footer>
+        <div class="container p-4" style="background-color: rgba(46, 41, 41, 0.762);">
+          <div class="row">
+            <div class="col-lg-6 col-md-12 mb-4">
+              <h5 class="mb-3" style="letter-spacing: 2px; color: #818963">
+                <b>Elektronica>></b>
+              </h5>
+              <p>
+                Elektronica is the tech wing of ECE, NSEC. This is the home for
+                all of your tech cravings and digital needs. Join other
+                like-minded people and share in the infinite rabbit-hole of
+                tech-whiz dom!
+              </p>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+              <h5 class="mb-3" style="letter-spacing: 2px; color: #818963">
+                Find Us
+              </h5>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-1">
+                  <a
+                    href="https://www.facebook.com/nsececedpt/"
+                    style="color: #848282"
+                    >Facebook</a
+                  >
+                </li>
+                <li class="mb-1">
+                  <a
+                    href="https://www.instagram.com/nsec_ece_department/?igshid=atg6qghxzz0v"
+                    style="color: #848282"
+                    >Instagram</a
+                  >
+                </li>
+                <!--<li class="mb-1">
+            <a href="#!" style="color: #4f4f4f;">nthng</a>
+          </li>-->
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+              <h5 class="mb-1" style="letter-spacing: 2px; color: #818963">
+                Getting Started
+              </h5>
+              <table class="table" style="color: #848282; border-color: #666">
+                <tbody>
+                  <tr>
+                    <td>Date:</td>
+                    <td>12th - 22th</td>
+                  </tr>
+                  <tr>
+                    <td>Results:</td>
+                    <td>Coming Soon</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div
+          class="text-center p-3"
+          style="background-color: rgba(0, 0, 0, 0.2)"
+        >
+          © Tech-Eva
+          <p class="text-white">
+            Designed And Maintained By WebTeam of ECE, NSEC Tech Wing, With <3
+          </p>
+        </div>
+        <!-- Copyright -->
+      </footer>
+    </div>
+    <!-- End of .container -->
+    <!--- End of Footer --->
+
+    <!-- BS5 JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
