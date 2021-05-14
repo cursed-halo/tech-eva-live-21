@@ -96,18 +96,18 @@
         </div>
       </nav>
     </div>
-    <!--New Section-->
     <hr />
+    <!--new carousel TEST-->
+
     <div
-      id="carouselExampleDark"
-      class="carousel carousel-dark slide"
-      data-bs-ride="carousel "
-      style="padding: 6% 20% 6% 20%"
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="carousel"
     >
       <div class="carousel-indicators">
         <button
           type="button"
-          data-bs-target="#carouselExampleDark"
+          data-bs-target="#carouselExampleCaptions"
           data-bs-slide-to="0"
           class="active"
           aria-current="true"
@@ -115,18 +115,18 @@
         ></button>
         <button
           type="button"
-          data-bs-target="#carouselExampleDark"
+          data-bs-target="#carouselExampleCaptions"
           data-bs-slide-to="1"
           aria-label="Slide 2"
         ></button>
         <button
           type="button"
-          data-bs-target="#carouselExampleDark"
+          data-bs-target="#carouselExampleCaptions"
           data-bs-slide-to="2"
           aria-label="Slide 3"
         ></button>
       </div>
-      <div class="carousel-inner">
+      <div class="carousel-inner container">
         <div
           class="
             carousel-item
@@ -135,36 +135,34 @@
             border border-light border-5
             shadow-sm
           "
-          data-bs-interval="10000"
         >
           <img
             src="https://images.unsplash.com/photo-1586527155314-1d25428324ff?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
             class="d-block w-100"
             alt="..."
-            style="height: 30rem"
+            style="height: 500px"
           />
-          <div class="carousel-caption d-none d-md-block">
-            <h5 class="display-3 text-center fw-bolder p-5">Mind Fix</h5>
+          <div class="carousel-caption">
+            <!-- d-none d-md-block this needs to be added if it breaks-->
+            <h5 class="display-3 text-dark">Mind Fix</h5>
             <hr />
-            <p class="display-4 text-center text-muted">Tech Quiz</p>
+            <p class="fs-3 text-dark text-muted">Tech Quiz And More</p>
           </div>
         </div>
         <div
           class="carousel-item rounded-3 border border-light border-5 shadow-sm"
-          data-bs-interval="2000"
         >
           <img
             src="https://images.unsplash.com/photo-1471107340929-a87cd0f5b5f3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=966&q=80"
             class="d-block w-100"
             alt="..."
-            style="height: 30rem"
+            style="height: 500px"
           />
-          <div class="carousel-caption d-none d-md-block">
-            <h5 class="display-3 text-center fw-bolder p-5">Blog'O'Pedia</h5>
+          <div class="carousel-caption">
+            <!-- d-none d-md-block this needs to be added if it breaks-->
+            <h5 class="display-3 text-dark">Blog'O'Pedia</h5>
             <hr />
-            <p class="display-4 text-center text-muted">
-              Blog writing Competition
-            </p>
+            <p class="fs-3 text-dark text-muted">Technical Blog Writing</p>
           </div>
         </div>
         <div
@@ -174,23 +172,80 @@
             src="https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80"
             class="d-block w-100"
             alt="..."
-            style="height: 30rem"
+            style="height: 500px"
           />
-          <div class="carousel-caption d-none d-md-block">
-            <h5 class="display-3 text-center fw-bolder p-5">Sessions</h5>
+          <div class="carousel-caption">
+            <!-- d-none d-md-block this needs to be added if it breaks-->
+            <h5 class="display-3 text-dark">Sessions</h5>
             <hr />
-            <p class="display-4 text-center text-muted">
-              Interactive Sessions On Various Technical Subjects
+            <p class="fs-3 text-dark text-muted">
+              Interactive Sessions By The Studends, For The Students
             </p>
           </div>
         </div>
       </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    <br />
     <hr />
-
+    <!--Details of events-->
+    <div class="container px-4 py-5" id="featured-3">
+      <h2 class="pb-2 border-bottom">What We Offer</h2>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="feature col">
+          <div class="feature-icon bg-primary bg-gradient"></div>
+          <h2>Mind Fix</h2>
+          <p>
+            This is our all in one tech quiz to all the nerds and geeks out
+            there. We cover topics from IoT to AI, and Tech in Business to Algos
+          </p>
+          <a href="#" class="icon-link link-secondary"> Coming Soon </a>
+        </div>
+        <div class="feature col">
+          <div class="feature-icon bg-primary bg-gradient"></div>
+          <h2>Blog'O'Pedia</h2>
+          <p>
+            This is our Technical Blog / Article writing competetion. Students
+            from all the years come together to pen down interesting and fun
+            blogs that discuss everything tech
+          </p>
+          <a
+            href="https://forms.gle/nab82NuzmSL6yA9X7"
+            class="icon-link link-success"
+          >
+            Ongoing - Register Yourself
+          </a>
+        </div>
+        <div class="feature col">
+          <div class="feature-icon bg-primary bg-gradient"></div>
+          <h2>Sessions</h2>
+          <p>
+            These are student organized sessions to cover various topics and
+            subjects that can be of use to peers, juniors and seniors alike
+          </p>
+          <a href="#" class="icon-link link-secondary"> Coming Soon </a>
+        </div>
+      </div>
+    </div>
     <!--Footer Section-->
     <!-- Remove the container if you want to extend the Footer to full width. -->
+    <hr />
     <div class="container my-5 bg-dark text-white">
       <footer>
         <div
